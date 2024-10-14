@@ -1,0 +1,26 @@
+{
+  "name": "shopify-picker-component",
+  "version": "1.0.0",
+  "description": "The missing general purpose picker for the @shopify/app-bridge-react v4.x.x",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["shopify", "app-bridge", "picker", "react"],
+  "author": {
+    "name": "Gagan S Goraya",
+    "url": "https://gagangoraya.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "@shopify/app-bridge": "^3.0.0",
+    "@shopify/app-bridge-react": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^4.5.0"
+  }
+}
